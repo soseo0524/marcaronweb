@@ -467,6 +467,9 @@
     .division-desc span {
       display: block;
     }
+    .hardware-desc-fixed span {
+      white-space: nowrap;
+    }
 
     .division-media {
       position: relative;
@@ -1325,7 +1328,10 @@
             </div>
           </div>
           <div class="division-desc">
-            GPS와 IMU 기반 위치 추정 결과를 바탕으로, 차량이 주행해야 할 경로와 행동을 실시간으로 계획하여 안전하고 효율적인 주행을 만듭니다.
+            <span>GPS와 IMU를 통해 추정한 차량의 위치 정보를 HD Map과 함께 활용하여  </span>
+            <span>주변 도로 구조, 차선, 교차로, 제한속도 등 주행 환경을 정밀하게 인식하고, </span>
+            <span>이를 바탕으로 차량이 따라갈 경로와 행동을 실시간으로 계획해 안전하고 </span>
+            <span>효율적인 주행을 구현합니다.</span>
           </div>
         </div>
       </div>
@@ -1343,8 +1349,10 @@
               <h3 class="division-name">Hardware<br>Operation</h3>
             </div>
           </div>
-          <div class="division-desc">
-            차량 하드웨어와 센서 시스템을 직접 관리하고, 대회 운영과 문서화까지 담당해 실차 테스트와 현장 주행이 안정적으로 이어지도록 지원합니다.
+          <div class="division-desc hardware-desc-fixed">
+            <span>차량 하드웨어와 센서 시스템을 직접 관리하고, 대회 운영과</span>
+            <span>문서화까지 담당해 실차 테스트와 현장 주행이 안정적으로 </span>
+            <span>이어지도록 지원합니다.</span>
           </div>
         </div>
       </div>
@@ -1615,13 +1623,13 @@
         <div class="tl-label">2026 국민대학교 자율모빌리티산업전</div>
       </div>
       <div class="tl-item">
-        <div class="tl-label">HL FMA 자율주행 경진대회</div>
+        <div class="tl-label">2026 2026 자율주행모빌리티산업전 해커톤</div>
       </div>
       <div class="tl-item">
         <div class="tl-label">대학생 창작 모빌리티 경진대회</div>
       </div>
       <div class="tl-item">
-        <div class="tl-label">2026 AMET 자율주행 해커톤</div>
+        <div class="tl-label">HL FMA 자율주행 경진대회</div>
       </div>
       <div class="tl-item">
         <div class="tl-label">2026 공학페스티벌</div>
@@ -1674,7 +1682,7 @@
   const CLOUDINARY_VIDEO_URLS = {
     hero: "https://res.cloudinary.com/dkdajwksv/video/upload/v1782230508/web.mp4",
     vision: "https://res.cloudinary.com/dkdajwksv/video/upload/v1782230501/vision.mp4",
-    planning: "https://res.cloudinary.com/dkdajwksv/video/upload/v1782230499/planning.mp4",
+    planning: "https://res.cloudinary.com/dkdajwksv/video/upload/v1782295975/planningver2.mp4",
     hardware: "https://res.cloudinary.com/dkdajwksv/video/upload/v1782230491/hardware.mp4"
   };
 
