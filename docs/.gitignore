@@ -1,0 +1,17 @@
+# 영상 파일 (Cloudinary CDN 사용)
+web.mp4
+assets/videos/
+
+# Node 관련
+node_modules/
+npm-debug.log
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
